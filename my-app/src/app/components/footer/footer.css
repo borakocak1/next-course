@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  position: relative;
+  bottom: 0;
+}
+
+.paragraph {
+  background-color: white;
+}
+.logo_footer {
+  max-height: 60px;
+  max-width: 60px;
+  width: auto;
+  height: auto;
+  background-color: bisque;
+}

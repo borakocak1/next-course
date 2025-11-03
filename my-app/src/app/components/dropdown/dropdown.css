@@ -1,0 +1,37 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+  flex: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: indianred;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+ 
+}
+
+.dropdown-text {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 1s ease;
+  background-color:chocolate;
+  border-radius: 30px;
+
+}
+.dropdown-closed {
+  max-height: 0;
+}
+
+.dropdown-open{
+  max-height: 500px;
+}

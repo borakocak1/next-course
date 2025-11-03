@@ -1,0 +1,21 @@
+.home-card {
+  background-color: pink;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  /*not sure if it's ideal solution*/
+  position: relative; /* check on them see how positioning work - absolute ruins the placement similar wiht fixed*/
+  overflow: hidden;
+}
+
+.card_image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card_title {
+  position: absolute; /*why absolute works here?*/
+  bottom: 0;
+  margin: 15px;
+}
